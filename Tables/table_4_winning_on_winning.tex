@@ -1,0 +1,26 @@
+\begingroup
+\centering
+\begin{tabular}{lccccccccc}
+   \toprule
+                                       & (1)           & (2)           & (3)           & (4)           & (5)           & (6)           & (7)           & (8)           & (9)\\  
+   \midrule 
+   Won last game                       & 0.030$^{***}$ & 0.020$^{***}$ & 0.020$^{***}$ & -0.011$^{*}$  &               & -0.006        & -0.007        & -0.009        & -0.013\\   
+                                       & (0.006)       & (0.007)       & (0.007)       & (0.006)       &               & (0.006)       & (0.006)       & (0.006)       & (0.008)\\   
+   I(corsi\_events\_lag-score\_lag)    &               &               &               &               & 0.001$^{***}$ & 0.001$^{***}$ & 0.001$^{***}$ & 0.001$^{***}$ & 0.0008$^{**}$\\   
+                                       &               &               &               &               & (0.0003)      & (0.0003)      & (0.0003)      & (0.0002)      & (0.0003)\\   
+   Home team                           &               &               &               &               &               &               & 0.081$^{***}$ & 0.081$^{***}$ & 0.079$^{***}$\\   
+                                       &               &               &               &               &               &               & (0.007)       & (0.007)       & (0.007)\\   
+   Constant                            & 0.485$^{***}$ &               &               &               &               &               &               &               &   \\   
+                                       & (0.009)       &               &               &               &               &               &               &               &   \\   
+    \\
+   R$^2$                               & 0.0009        & 0.01          & 0.01          & 0.04          & 0.04          & 0.04          & 0.05          & 0.08          & 0.39\\  
+   Observations                        & 32,544        & 32,544        & 32,544        & 32,544        & 32,526        & 32,526        & 32,526        & 32,526        & 32,526\\  
+    \\
+   Team fixed effects                  &               & $\checkmark$  & $\checkmark$  &               &               &               &               &               & \\  
+   Season fixed effects                &               &               & $\checkmark$  &               &               &               &               &               & \\  
+   Team-Season fixed effects           &               &               &               & $\checkmark$  & $\checkmark$  & $\checkmark$  & $\checkmark$  & $\checkmark$  & \\  
+   Opponent-Season fixed effects       &               &               &               &               &               &               &               & $\checkmark$  & \\  
+   Team-Opponent-Season fixed effects  &               &               &               &               &               &               &               &               & $\checkmark$\\   
+   \bottomrule
+\end{tabular}
+\par\endgroup
